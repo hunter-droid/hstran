@@ -1,9 +1,10 @@
 package com.hunter.droid.hstran.server.controller;
 
 import com.github.pagehelper.PageInfo;
-import com.hunter.droid.hstran.server.mapper.ApplicationMapper;
 import com.hunter.droid.hstran.server.model.Application;
+import com.hunter.droid.hstran.server.model.Locale;
 import com.hunter.droid.hstran.server.service.impl.ApplicationServiceImpl;
+import com.hunter.droid.hstran.server.service.impl.LocaleServiceImpl;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,22 +17,31 @@ import java.util.List;
 
 /**
  * @author fx.yu
- * @date 2021/3/12 8:42
+ * @version 1.0
+ * @date 2021/3/14 4:50 下午
  */
+
 @Api(value = "api", tags = {})
 @RestController
-@RequestMapping("/application")
-public class ApplicationController {
+@RequestMapping("/locale")
+public class LocaleController {
 
     @Autowired
-    private ApplicationServiceImpl applicationService;
+    LocaleServiceImpl localeService;
 
-    @ApiOperation(value = "获取app", httpMethod = "GET", notes = "获取appid")
+    @Autowired
+    private ApplicationServiceImpl applicationMapper;
+
+    @ApiOperation(value = "添加localse", httpMethod = "POST", notes = "添加localse")
+    @RequestMapping(method = RequestMethod.POST)
+    public int add(Locale locale) {
+        return localeService.add(locale);
+    }
+
+    @ApiOperation(value = "获取localse", httpMethod = "GET", notes = "获取localse")
     @RequestMapping(method = RequestMethod.GET)
-    public PageInfo<Application> getPageList(@RequestParam Integer pageNum
-            , @RequestParam Integer pageSize
-            , @RequestParam String keyWord) {
-        return applicationService.getList(pageNum, pageSize, keyWord);
+    public List<Locale> getList() {
+        return localeService.getList();
     }
 
 }

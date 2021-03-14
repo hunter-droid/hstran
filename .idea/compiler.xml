@@ -6,15 +6,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="hs-tran" />
         <module name="hs-tran-admin" />
-        <module name="hs-tran-client" />
         <module name="hs-tran-server" />
+        <module name="hs-tran" />
+        <module name="hs-tran-client" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="8">
-      <module name="hs-tran" target="1.5" />
-      <module name="hstran" target="8" />
+    <bytecodeTargetLevel target="11">
+      <module name="hs-tran" target="11" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="hs-tran-admin" options="-parameters" />
+      <module name="hs-tran-client" options="-parameters" />
+      <module name="hs-tran-server" options="-parameters" />
+    </option>
   </component>
 </project>
