@@ -1,0 +1,12 @@
+{
+  "appId": "10001",
+  "appenders": [
+    "EsMetricAppender"
+  ],
+  "esConfigs": [
+    {
+      "host": "localhost",
+      "port": 9200
+    }
+  ]
+}

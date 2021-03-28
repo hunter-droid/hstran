@@ -1,7 +1,6 @@
-package com.hunter.droid.hstran.server.mapper;
+package com.hunter.droid.hstran.server.domin.locale.repository.mapper;
 
-import com.hunter.droid.hstran.server.model.Application;
-import com.hunter.droid.hstran.server.model.Locale;
+import com.hunter.droid.hstran.server.domin.locale.repository.po.LocalePO;
 import org.apache.ibatis.annotations.*;
 import org.springframework.stereotype.Service;
 
@@ -17,7 +16,7 @@ public interface LocaleMapper {
 
 
     @Insert("INSERT INTO locale(name,description) VALUES(#{name}, #{description})")
-    int insert(Locale locale);
+    int insert(LocalePO localePO);
 
     @Select("SELECT * FROM locale")
     @Results({
@@ -27,5 +26,5 @@ public interface LocaleMapper {
             @Result(property = "gmtCreate", column = "gmt_create"),
             @Result(property = "gmtModify", column = "gmt_modify")
     })
-    List<Locale> getList();
+    List<LocalePO> getList();
 }

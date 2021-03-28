@@ -20,23 +20,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="904ea6e4-80f3-43a0-a7ce-80471815b6a1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hs-tran-server/src/main/java/com/hunter/droid/hstran/server/controller/LocaleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hs-tran-server/src/main/java/com/hunter/droid/hstran/server/mapper/LocaleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hs-tran-server/src/main/java/com/hunter/droid/hstran/server/model/Locale.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hs-tran-server/src/main/java/com/hunter/droid/hstran/server/service/ApplicationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hs-tran-server/src/main/java/com/hunter/droid/hstran/server/service/impl/ApplicationServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hs-tran-server/src/main/java/com/hunter/droid/hstran/server/service/impl/LocaleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/hunter.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hs-tran-server/src/main/java/com/hunter/droid/hstran/server/application/service/AppService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hs-tran-server/src/main/java/com/hunter/droid/hstran/server/domin/app/converter/AppDominConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hs-tran-server/src/main/java/com/hunter/droid/hstran/server/domin/app/entity/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hs-tran-server/src/main/java/com/hunter/droid/hstran/server/domin/app/service/AppDominService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hs-tran-server/src/main/java/com/hunter/droid/hstran/server/interfaces/controller/TranController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hs-tran-server/src/main/java/com/hunter/droid/hstran/server/interfaces/converter/AppConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hs-tran-server/src/main/java/com/hunter/droid/hstran/server/interfaces/dto/AppPageInfoResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hs-tran-server/src/main/java/com/hunter/droid/hstran/server/interfaces/dto/AppPageListRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hs-tran-server/src/main/java/com/hunter/droid/hstran/server/interfaces/dto/AppPageListResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hs-tran-server/src/main/java/com/hunter/droid/hstran/server/interfaces/dto/CreateAppRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hs-tran-server/src/main/java/com/hunter/droid/hstran/server/interfaces/dto/CreateAppResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hs-tran-server/src/main/java/com/hunter/droid/hstran/server/interfaces/dto/base/PageRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hs-tran-server/src/main/java/com/hunter/droid/hstran/server/interfaces/dto/base/Request.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hs-tran-server/src/main/java/com/hunter/droid/hstran/server/interfaces/dto/base/Response.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hs-tran-server/src/main/resources/json/xmetric.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hs-tran-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hs-tran-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hs-tran-server/src/main/java/com/hunter/droid/hstran/server/controller/ApplicationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hs-tran-server/src/main/java/com/hunter/droid/hstran/server/controller/ApplicationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hs-tran-server/src/main/java/com/hunter/droid/hstran/server/mapper/ApplicationMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/hs-tran-server/src/main/java/com/hunter/droid/hstran/server/mapper/ApplicationMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hs-tran-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hs-tran-server/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hs-tran.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hs-tran.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs-tran-server/src/main/java/com/hunter/droid/hstran/server/HsTranServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/hs-tran-server/src/main/java/com/hunter/droid/hstran/server/HsTranServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs-tran-server/src/main/java/com/hunter/droid/hstran/server/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/hs-tran-server/src/main/java/com/hunter/droid/hstran/server/interfaces/config/SwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs-tran-server/src/main/java/com/hunter/droid/hstran/server/controller/ApplicationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hs-tran-server/src/main/java/com/hunter/droid/hstran/server/interfaces/controller/AppController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs-tran-server/src/main/java/com/hunter/droid/hstran/server/controller/LocaleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hs-tran-server/src/main/java/com/hunter/droid/hstran/server/interfaces/controller/LocaleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs-tran-server/src/main/java/com/hunter/droid/hstran/server/mapper/ApplicationMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/hs-tran-server/src/main/java/com/hunter/droid/hstran/server/domin/app/repository/mapper/AppMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs-tran-server/src/main/java/com/hunter/droid/hstran/server/mapper/LocaleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/hs-tran-server/src/main/java/com/hunter/droid/hstran/server/domin/locale/repository/mapper/LocaleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs-tran-server/src/main/java/com/hunter/droid/hstran/server/model/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/hs-tran-server/src/main/java/com/hunter/droid/hstran/server/domin/app/repository/po/AppPO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs-tran-server/src/main/java/com/hunter/droid/hstran/server/model/Locale.java" beforeDir="false" afterPath="$PROJECT_DIR$/hs-tran-server/src/main/java/com/hunter/droid/hstran/server/domin/locale/repository/po/LocalePO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs-tran-server/src/main/java/com/hunter/droid/hstran/server/service/ApplicationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs-tran-server/src/main/java/com/hunter/droid/hstran/server/service/impl/ApplicationServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs-tran-server/src/main/java/com/hunter/droid/hstran/server/service/impl/LocaleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/hs-tran-server/src/main/java/com/hunter/droid/hstran/server/application/service/LocaleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs-tran-server/src/main/resources/generator/generatorConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs-tran-server/src/main/resources/mapping/ApplicationMapper.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,13 +69,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="userSettingsFile" value="$USER_HOME$/programs/maven/apache-maven-3.6.3/conf/settings.xml" />
-      </MavenGeneralSettings>
-    </option>
   </component>
   <component name="ProjectId" id="1pgFANY3CTPSWAVGcnNIJrQ7qSY" />
   <component name="ProjectViewState">
@@ -87,13 +95,17 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/hs-tran-server/src/main/resources/json" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/hs-tran-server/src/main/resources" />
       <recent name="D:\Flower\hstran\hs-tran-server\src\main\resources" />
     </key>
   </component>
@@ -106,6 +118,36 @@
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.hunter.droid.hstran.server.dto in hs-tran-server" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hs-tran-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hunter.droid.hstran.server.interfaces.dto.base.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hunter.droid.hstran.server.dto" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.hunter.droid.hstran.server.interfaces in hs-tran-server" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hs-tran-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hunter.droid.hstran.server.interfaces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hunter.droid.hstran.server.interfaces" />
+      <option name="TEST_OBJECT" value="package" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -155,10 +197,18 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.com.hunter.droid.hstran.server.dto in hs-tran-server" />
+      <item itemvalue="JUnit.com.hunter.droid.hstran.server.interfaces in hs-tran-server" />
       <item itemvalue="Spring Boot.HsTranServerApplication" />
       <item itemvalue="Spring Boot.HsTranAdminApplication" />
       <item itemvalue="Spring Boot.HsTranClientApplication" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.com.hunter.droid.hstran.server.interfaces in hs-tran-server" />
+        <item itemvalue="JUnit.com.hunter.droid.hstran.server.dto in hs-tran-server" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -171,7 +221,13 @@
       <option name="presentableId" value="Default" />
       <updated>1615507772252</updated>
       <workItem from="1615507775382" duration="9658000" />
-      <workItem from="1615596686472" duration="17744000" />
+      <workItem from="1615596686472" duration="31109000" />
+      <workItem from="1616834846334" duration="583000" />
+      <workItem from="1616840302999" duration="36000" />
+      <workItem from="1616846847054" duration="40000" />
+      <workItem from="1616847226553" duration="1425000" />
+      <workItem from="1616850910032" duration="3289000" />
+      <workItem from="1616857519756" duration="6253000" />
     </task>
     <servers />
   </component>
@@ -188,120 +244,231 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="640" y="313" key="#Custom_Plugin_Repositories" timestamp="1616857437607">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state x="640" y="313" key="#Custom_Plugin_Repositories/0.23.1440.821@0.23.1440.821" timestamp="1616857437607" />
     <state x="208" y="23" key="#Project_Structure" timestamp="1615597014498">
       <screen x="0" y="23" width="1440" height="831" />
     </state>
     <state x="208" y="23" key="#Project_Structure/0.23.1440.831@0.23.1440.831" timestamp="1615597014498" />
-    <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser" timestamp="1615711729452">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="533" y="152" key="#com.intellij.ide.util.MemberChooser" timestamp="1616940048231">
+      <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1615711729452" />
-    <state width="520" height="466" key="DebuggerActiveHint" timestamp="1615684220531">
+    <state x="533" y="152" key="#com.intellij.ide.util.MemberChooser/0.23.1440.821@0.23.1440.821" timestamp="1616940048231" />
+    <state x="244" y="366" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1616850041952">
+      <screen x="0" y="23" width="1440" height="816" />
+    </state>
+    <state x="244" y="366" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1440.816@0.23.1440.816" timestamp="1616850041952" />
+    <state x="364" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1616939159399">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state x="364" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.816@0.23.1440.816" timestamp="1616851135180" />
+    <state x="364" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.821@0.23.1440.821" timestamp="1616939159399" />
+    <state x="458" y="209" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1616939541304">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1616244588672" />
+    <state x="458" y="209" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.821@0.23.1440.821" timestamp="1616939541304" />
+    <state x="483" y="160" key="#xdebugger.evaluate" timestamp="1616241416758">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="520" height="466" key="DebuggerActiveHint/0.0.1440.900@0.0.1440.900" timestamp="1615684220531" />
+    <state x="483" y="160" key="#xdebugger.evaluate/0.0.1440.900@0.0.1440.900" timestamp="1616241416758" />
+    <state width="520" height="426" key="DebuggerActiveHint" timestamp="1616938387787">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state width="520" height="466" key="DebuggerActiveHint/0.0.1440.900@0.0.1440.900" timestamp="1616243931654" />
+    <state width="520" height="426" key="DebuggerActiveHint/0.23.1440.821@0.23.1440.821" timestamp="1616938387787" />
+    <state width="520" height="466" key="DebuggerActiveHint/0.23.1440.829@0.23.1440.829" timestamp="1616241622840" />
     <state width="520" height="466" key="DebuggerActiveHint/0.23.1440.831@0.23.1440.831" timestamp="1615683683743" />
-    <state width="1398" height="303" key="GridCell.Tab.0.bottom" timestamp="1615712978238">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="520" height="434" key="DebuggerActiveHint/0.23.1440.837@0.23.1440.837" timestamp="1616832973004" />
+    <state width="1398" height="310" key="GridCell.Tab.0.bottom" timestamp="1616940589528">
+      <screen x="0" y="23" width="1440" height="821" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1615712978238" />
+    <state width="1398" height="303" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1616245121463" />
+    <state width="1358" height="160" key="GridCell.Tab.0.bottom/0.23.1440.816@0.23.1440.816" timestamp="1616850802103" />
+    <state width="1398" height="310" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1616940589528" />
+    <state width="1398" height="303" key="GridCell.Tab.0.bottom/0.23.1440.829@0.23.1440.829" timestamp="1616243255373" />
     <state width="1398" height="303" key="GridCell.Tab.0.bottom/0.23.1440.831@0.23.1440.831" timestamp="1615644241231" />
-    <state width="1398" height="303" key="GridCell.Tab.0.center" timestamp="1615712978236">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1358" height="303" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1616834719382" />
+    <state width="1398" height="310" key="GridCell.Tab.0.center" timestamp="1616940589526">
+      <screen x="0" y="23" width="1440" height="821" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1615712978236" />
+    <state width="1398" height="303" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1616245121461" />
+    <state width="1358" height="160" key="GridCell.Tab.0.center/0.23.1440.816@0.23.1440.816" timestamp="1616850802100" />
+    <state width="1398" height="310" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1616940589526" />
+    <state width="1398" height="303" key="GridCell.Tab.0.center/0.23.1440.829@0.23.1440.829" timestamp="1616243255371" />
     <state width="1398" height="303" key="GridCell.Tab.0.center/0.23.1440.831@0.23.1440.831" timestamp="1615644241229" />
-    <state width="1398" height="303" key="GridCell.Tab.0.left" timestamp="1615712978235">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1358" height="303" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1616834719382" />
+    <state width="1398" height="310" key="GridCell.Tab.0.left" timestamp="1616940589526">
+      <screen x="0" y="23" width="1440" height="821" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1615712978235" />
+    <state width="1398" height="303" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1616245121458" />
+    <state width="1358" height="160" key="GridCell.Tab.0.left/0.23.1440.816@0.23.1440.816" timestamp="1616850802098" />
+    <state width="1398" height="310" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1616940589526" />
+    <state width="1398" height="303" key="GridCell.Tab.0.left/0.23.1440.829@0.23.1440.829" timestamp="1616243255369" />
     <state width="1398" height="303" key="GridCell.Tab.0.left/0.23.1440.831@0.23.1440.831" timestamp="1615644241228" />
-    <state width="1398" height="303" key="GridCell.Tab.0.right" timestamp="1615712978237">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1358" height="303" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1616834719382" />
+    <state width="1398" height="310" key="GridCell.Tab.0.right" timestamp="1616940589527">
+      <screen x="0" y="23" width="1440" height="821" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1615712978237" />
+    <state width="1398" height="303" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1616245121462" />
+    <state width="1358" height="160" key="GridCell.Tab.0.right/0.23.1440.816@0.23.1440.816" timestamp="1616850802102" />
+    <state width="1398" height="310" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1616940589527" />
+    <state width="1398" height="303" key="GridCell.Tab.0.right/0.23.1440.829@0.23.1440.829" timestamp="1616243255372" />
     <state width="1398" height="303" key="GridCell.Tab.0.right/0.23.1440.831@0.23.1440.831" timestamp="1615644241230" />
-    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1615712982713">
-      <screen x="0" y="23" width="1440" height="832" />
+    <state width="1358" height="303" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1616834719382" />
+    <state width="1398" height="310" key="GridCell.Tab.1.bottom" timestamp="1616940623016">
+      <screen x="0" y="23" width="1440" height="821" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1615712978100" />
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1616245121813" />
+    <state width="1398" height="310" key="GridCell.Tab.1.bottom/0.23.1440.821@0.23.1440.821" timestamp="1616940623016" />
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.23.1440.829@0.23.1440.829" timestamp="1616243255381" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.23.1440.831@0.23.1440.831" timestamp="1615684303490" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.23.1440.832@0.23.1440.832" timestamp="1615712982713" />
-    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1615712982712">
-      <screen x="0" y="23" width="1440" height="832" />
+    <state width="1358" height="303" key="GridCell.Tab.1.bottom/0.23.1440.837@0.23.1440.837" timestamp="1616834719383" />
+    <state width="1398" height="310" key="GridCell.Tab.1.center" timestamp="1616940623015">
+      <screen x="0" y="23" width="1440" height="821" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1615712978099" />
+    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1616245121811" />
+    <state width="1398" height="310" key="GridCell.Tab.1.center/0.23.1440.821@0.23.1440.821" timestamp="1616940623015" />
+    <state width="1398" height="303" key="GridCell.Tab.1.center/0.23.1440.829@0.23.1440.829" timestamp="1616243255374" />
     <state width="1398" height="303" key="GridCell.Tab.1.center/0.23.1440.831@0.23.1440.831" timestamp="1615684303489" />
     <state width="1398" height="303" key="GridCell.Tab.1.center/0.23.1440.832@0.23.1440.832" timestamp="1615712982712" />
-    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1615712982712">
-      <screen x="0" y="23" width="1440" height="832" />
+    <state width="1358" height="303" key="GridCell.Tab.1.center/0.23.1440.837@0.23.1440.837" timestamp="1616834719383" />
+    <state width="1398" height="310" key="GridCell.Tab.1.left" timestamp="1616940623014">
+      <screen x="0" y="23" width="1440" height="821" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1615712978098" />
+    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1616245121810" />
+    <state width="1398" height="310" key="GridCell.Tab.1.left/0.23.1440.821@0.23.1440.821" timestamp="1616940623014" />
+    <state width="1398" height="303" key="GridCell.Tab.1.left/0.23.1440.829@0.23.1440.829" timestamp="1616243255373" />
     <state width="1398" height="303" key="GridCell.Tab.1.left/0.23.1440.831@0.23.1440.831" timestamp="1615684303489" />
     <state width="1398" height="303" key="GridCell.Tab.1.left/0.23.1440.832@0.23.1440.832" timestamp="1615712982712" />
-    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1615712982712">
-      <screen x="0" y="23" width="1440" height="832" />
+    <state width="1358" height="303" key="GridCell.Tab.1.left/0.23.1440.837@0.23.1440.837" timestamp="1616834719383" />
+    <state width="1398" height="310" key="GridCell.Tab.1.right" timestamp="1616940623015">
+      <screen x="0" y="23" width="1440" height="821" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1615712978099" />
+    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1616245121812" />
+    <state width="1398" height="310" key="GridCell.Tab.1.right/0.23.1440.821@0.23.1440.821" timestamp="1616940623015" />
+    <state width="1398" height="303" key="GridCell.Tab.1.right/0.23.1440.829@0.23.1440.829" timestamp="1616243255375" />
     <state width="1398" height="303" key="GridCell.Tab.1.right/0.23.1440.831@0.23.1440.831" timestamp="1615684303490" />
     <state width="1398" height="303" key="GridCell.Tab.1.right/0.23.1440.832@0.23.1440.832" timestamp="1615712982712" />
-    <state width="1398" height="303" key="GridCell.Tab.2.bottom" timestamp="1615712978103">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1358" height="303" key="GridCell.Tab.1.right/0.23.1440.837@0.23.1440.837" timestamp="1616834719383" />
+    <state width="1398" height="310" key="GridCell.Tab.2.bottom" timestamp="1616940589315">
+      <screen x="0" y="23" width="1440" height="821" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.2.bottom/0.0.1440.900@0.0.1440.900" timestamp="1615712978103" />
+    <state width="1398" height="303" key="GridCell.Tab.2.bottom/0.0.1440.900@0.0.1440.900" timestamp="1616245121240" />
+    <state width="1398" height="310" key="GridCell.Tab.2.bottom/0.23.1440.821@0.23.1440.821" timestamp="1616940589315" />
+    <state width="1398" height="303" key="GridCell.Tab.2.bottom/0.23.1440.829@0.23.1440.829" timestamp="1616243255385" />
     <state width="1398" height="303" key="GridCell.Tab.2.bottom/0.23.1440.831@0.23.1440.831" timestamp="1615644241084" />
-    <state width="1398" height="303" key="GridCell.Tab.2.center" timestamp="1615712978101">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1358" height="303" key="GridCell.Tab.2.bottom/0.23.1440.837@0.23.1440.837" timestamp="1616834719384" />
+    <state width="1398" height="310" key="GridCell.Tab.2.center" timestamp="1616940589314">
+      <screen x="0" y="23" width="1440" height="821" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.2.center/0.0.1440.900@0.0.1440.900" timestamp="1615712978101" />
+    <state width="1398" height="303" key="GridCell.Tab.2.center/0.0.1440.900@0.0.1440.900" timestamp="1616245121237" />
+    <state width="1398" height="310" key="GridCell.Tab.2.center/0.23.1440.821@0.23.1440.821" timestamp="1616940589314" />
+    <state width="1398" height="303" key="GridCell.Tab.2.center/0.23.1440.829@0.23.1440.829" timestamp="1616243255383" />
     <state width="1398" height="303" key="GridCell.Tab.2.center/0.23.1440.831@0.23.1440.831" timestamp="1615644241083" />
-    <state width="1398" height="303" key="GridCell.Tab.2.left" timestamp="1615712978101">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1358" height="303" key="GridCell.Tab.2.center/0.23.1440.837@0.23.1440.837" timestamp="1616834719383" />
+    <state width="1398" height="310" key="GridCell.Tab.2.left" timestamp="1616940589314">
+      <screen x="0" y="23" width="1440" height="821" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.2.left/0.0.1440.900@0.0.1440.900" timestamp="1615712978101" />
+    <state width="1398" height="303" key="GridCell.Tab.2.left/0.0.1440.900@0.0.1440.900" timestamp="1616245121236" />
+    <state width="1398" height="310" key="GridCell.Tab.2.left/0.23.1440.821@0.23.1440.821" timestamp="1616940589314" />
+    <state width="1398" height="303" key="GridCell.Tab.2.left/0.23.1440.829@0.23.1440.829" timestamp="1616243255382" />
     <state width="1398" height="303" key="GridCell.Tab.2.left/0.23.1440.831@0.23.1440.831" timestamp="1615644241082" />
-    <state width="1398" height="303" key="GridCell.Tab.2.right" timestamp="1615712978102">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1358" height="303" key="GridCell.Tab.2.left/0.23.1440.837@0.23.1440.837" timestamp="1616834719383" />
+    <state width="1398" height="310" key="GridCell.Tab.2.right" timestamp="1616940589315">
+      <screen x="0" y="23" width="1440" height="821" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.2.right/0.0.1440.900@0.0.1440.900" timestamp="1615712978102" />
+    <state width="1398" height="303" key="GridCell.Tab.2.right/0.0.1440.900@0.0.1440.900" timestamp="1616245121239" />
+    <state width="1398" height="310" key="GridCell.Tab.2.right/0.23.1440.821@0.23.1440.821" timestamp="1616940589315" />
+    <state width="1398" height="303" key="GridCell.Tab.2.right/0.23.1440.829@0.23.1440.829" timestamp="1616243255384" />
     <state width="1398" height="303" key="GridCell.Tab.2.right/0.23.1440.831@0.23.1440.831" timestamp="1615644241084" />
-    <state x="258" y="112" key="Maven.ArtifactSearchDialog" timestamp="1615646955805">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1358" height="303" key="GridCell.Tab.2.right/0.23.1440.837@0.23.1440.837" timestamp="1616834719384" />
+    <state x="258" y="125" key="Maven.ArtifactSearchDialog" timestamp="1616856701368">
+      <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state x="258" y="112" key="Maven.ArtifactSearchDialog/0.0.1440.900@0.0.1440.900" timestamp="1615646955805" />
-    <state x="221" y="23" width="1024" height="831" key="SettingsEditor" timestamp="1615647578875">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="258" y="125" key="Maven.ArtifactSearchDialog/0.23.1440.821@0.23.1440.821" timestamp="1616856701368" />
+    <state x="221" y="44" width="1024" height="829" key="SettingsEditor" timestamp="1616857475314">
+      <screen x="0" y="23" width="1440" height="821" />
     </state>
-    <state x="221" y="23" width="1024" height="831" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1615647578875" />
+    <state x="221" y="23" width="1024" height="829" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1616244494555" />
+    <state x="221" y="44" key="SettingsEditor/0.23.1440.821@0.23.1440.821" timestamp="1616857475314" />
     <state x="221" y="23" width="1024" height="831" key="SettingsEditor/0.23.1440.831@0.23.1440.831" timestamp="1615597462398" />
-    <state width="720" height="446" key="XDebugger.FullValuePopup" timestamp="1615712958799">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="720" height="415" key="XDebugger.FullValuePopup" timestamp="1616830942891">
+      <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state width="720" height="446" key="XDebugger.FullValuePopup/0.0.1440.900@0.0.1440.900" timestamp="1615712958799" />
     <state width="720" height="446" key="XDebugger.FullValuePopup/0.23.1440.831@0.23.1440.831" timestamp="1615683683739" />
+    <state width="720" height="415" key="XDebugger.FullValuePopup/0.23.1440.837@0.23.1440.837" timestamp="1616830942891" />
+    <state x="257" y="196" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1616830103091">
+      <screen x="0" y="23" width="1440" height="837" />
+    </state>
+    <state x="257" y="186" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1440.900@0.0.1440.900" timestamp="1616241381627" />
+    <state x="257" y="196" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.23.1440.837@0.23.1440.837" timestamp="1616830103091" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/hs-tran-server/src/main/java/com/hunter/droid/hstran/server/service/impl/ApplicationServiceImpl.java</url>
-          <line>25</line>
+          <url>file://$PROJECT_DIR$/hs-tran-server/src/main/java/com/hunter/droid/hstran/server/application/service/AppService.java</url>
+          <line>26</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/hs-tran-server/src/main/java/com/hunter/droid/hstran/server/controller/LocaleController.java</url>
-          <line>37</line>
+          <url>file://$PROJECT_DIR$/hs-tran-server/src/main/java/com/hunter/droid/hstran/server/interfaces/controller/LocaleController.java</url>
+          <line>33</line>
           <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/hunter/droid/hs-xmetric/1.0-SNAPSHOT/hs-xmetric-1.0-SNAPSHOT.jar!/xmetric/XMetric.class</url>
+          <line>78</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/hunter/droid/hs-xmetric/1.0-SNAPSHOT/hs-xmetric-1.0-SNAPSHOT.jar!/xmetric/builder/MetricBuilder.class</url>
+          <line>47</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/hunter/droid/hs-xmetric/1.0-SNAPSHOT/hs-xmetric-1.0-SNAPSHOT.jar!/xmetric/appender/EsMetricAppender.class</url>
+          <line>26</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/hunter/droid/hs-xmetric/1.0-SNAPSHOT/hs-xmetric-1.0-SNAPSHOT.jar!/xmetric/appender/EsMetricAppender.class</url>
+          <line>38</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hs-tran-server/src/main/java/com/hunter/droid/hstran/server/interfaces/controller/AppController.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hs-tran-server/src/main/java/com/hunter/droid/hstran/server/application/service/AppService.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="47" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo typeName="xmetric.config.MetricConfig" fieldName="esConfigs" />
+        <PinnedItemInfo typeName="xmetric.config.MetricConfig" fieldName="pattern" />
+      </pinned-members>
+    </pin-to-top-manager>
     <watches-manager>
       <configuration name="SpringBootApplicationConfigurationType">
-        <watch expression="applicationMapper.getList()" language="JAVA" />
-        <watch expression="PageHelper.startPage(0,10)                 .doSelectPage(()-&gt;{applicationMapper.getList();})" language="JAVA" />
-        <watch expression="localeMapper.insert(locale);" language="JAVA" />
+        <watch expression="AppDominConverter.INSTANCE.toApp(applicationPageInfo)" language="JAVA" />
+        <watch expression="Mappers.getMapper(AppDominConverter.class)" language="JAVA" custom="org.mapstruct.factory.Mappers" />
+        <watch expression="Mappers.getMapper(AppConverter.class)" language="JAVA" custom="org.mapstruct.factory.Mappers" />
       </configuration>
     </watches-manager>
   </component>

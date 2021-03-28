@@ -1,4 +1,4 @@
-package com.hunter.droid.hstran.server.model;
+package com.hunter.droid.hstran.server.domin.locale.repository.po;
 
 import java.util.Date;
 
@@ -7,7 +7,7 @@ import java.util.Date;
  * @version 1.0
  * @date 2021/3/14 4:46 下午
  */
-public class Locale {
+public class LocalePO {
     private Integer id;
 
     private String name;

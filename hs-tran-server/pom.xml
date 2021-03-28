@@ -14,7 +14,8 @@
     <name>hs-tran-server</name>
     <description>Demo project for Spring Boot</description>
     <properties>
-        <java.version>8</java.version>
+        <java.version>11</java.version>
+        <org.mapstruct.version>1.4.1.Final</org.mapstruct.version>
     </properties>
     <dependencies>
         <dependency>
@@ -66,7 +67,43 @@
             <artifactId>springfox-spring-web</artifactId>
             <version>2.9.2</version>
         </dependency>
-
+        <dependency>
+            <groupId>com.hunter.droid</groupId>
+            <artifactId>hs-xmetric</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>2.8.0</version>
+        </dependency>
+        <!-- mapStruct 核心注解 -->
+        <dependency>
+            <groupId>org.mapstruct</groupId>
+            <artifactId>mapstruct</artifactId>
+            <version>${org.mapstruct.version}</version>
+        </dependency>
+        <!-- mapStruct 根据接口生成实现类 -->
+        <dependency>
+            <groupId>org.mapstruct</groupId>
+            <artifactId>mapstruct-processor</artifactId>
+            <version>${org.mapstruct.version}</version>
+            <scope>provided</scope>
+        </dependency>
+        <!-- lombok -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.16</version>
+            <scope>provided</scope>
+        </dependency>
+        <!-- mapStruct 支持 lombok -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok-mapstruct-binding</artifactId>
+            <version>0.2.0</version>
+            <scope>provided</scope>
+        </dependency>
     </dependencies>
 
     <build>
@@ -76,6 +113,7 @@
                 <includes>
                     <include>**/*.properties</include>
                     <include>**/*.xml</include>
+                    <include>**/*.*</include>
                 </includes>
             </resource>
         </resources>

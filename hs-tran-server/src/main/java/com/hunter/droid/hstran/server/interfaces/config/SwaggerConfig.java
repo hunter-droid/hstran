@@ -1,6 +1,5 @@
-package com.hunter.droid.hstran.server.config;
+package com.hunter.droid.hstran.server.interfaces.config;
 
-import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import springfox.documentation.builders.ApiInfoBuilder;
@@ -27,7 +26,7 @@ public class SwaggerConfig {
                 .apiInfo(apiInfo())
                 .select()
                 // 自行修改为自己的包路径
-                .apis(RequestHandlerSelectors.basePackage("com.hunter.droid.hstran.server.controller"))
+                .apis(RequestHandlerSelectors.basePackage("com.hunter.droid.hstran.server.interfaces.controller"))
                 .paths(PathSelectors.any())
                 .build();
     }
