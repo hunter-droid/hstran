@@ -18,6 +18,12 @@ public interface LocaleMapper {
     @Insert("INSERT INTO locale(name,description) VALUES(#{name}, #{description})")
     int insert(LocalePO localePO);
 
+    @Delete("Delete From locale WHERE id=#{id}")
+    int delete(int id);
+
+    @Update("Update locale Set name=#{name},description=#{description} Where id=#{id}")
+    int update(LocalePO localePO);
+
     @Select("SELECT * FROM locale")
     @Results({
             @Result(property = "id",  column = "id"),

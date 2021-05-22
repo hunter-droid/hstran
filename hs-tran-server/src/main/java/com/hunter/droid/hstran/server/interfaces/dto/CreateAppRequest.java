@@ -4,6 +4,8 @@ import com.hunter.droid.hstran.server.interfaces.dto.base.Request;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
+import java.util.List;
+
 /**
  * @author fx.yu
  * @version 1.0
@@ -15,7 +17,11 @@ public class CreateAppRequest extends Request {
 
     private String appName;
 
-    private String appId;
+    private Integer appId;
 
     private String description;
+
+    private List<Integer> localeIds;
 }
+
+

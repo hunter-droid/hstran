@@ -1,25 +1,18 @@
 package com.hunter.droid.hstran.server.domin.app.repository.mapper;
 
 import com.hunter.droid.hstran.server.domin.app.repository.po.AppPO;
-import org.apache.ibatis.annotations.Param;
-import org.apache.ibatis.annotations.Result;
-import org.apache.ibatis.annotations.Results;
-import org.apache.ibatis.annotations.Select;
+import org.apache.ibatis.annotations.*;
+import org.springframework.stereotype.Component;
 
 import java.util.List;
 
+@Component
 public interface AppMapper {
-    int deleteByPrimaryKey(Integer id);
 
+    @Insert("INSERT INTO app(app_id,app_name,description) VALUES(#{appId}, #{appName},#{description})")
     int insert(AppPO record);
 
-    int insertSelective(AppPO record);
 
-    AppPO selectByPrimaryKey(Integer id);
-
-    int updateByPrimaryKeySelective(AppPO record);
-
-    int updateByPrimaryKey(AppPO record);
 
     @Select("SELECT * FROM app"
             +" where app_id like concat('%',#{keyWord},'%') or app_name like concat('%',#{keyWord},'%')"

@@ -22,6 +22,23 @@ public class LocaleService {
         return localeMapper.insert(localePO);
     }
 
+    public int delete(int id){
+        return localeMapper.delete(id);
+    }
+
+    /**
+     * 更新
+     * @param localePO
+     * @return 受影响行数
+     */
+    public int update(LocalePO localePO){
+        return localeMapper.update(localePO);
+    }
+
+    /**
+     * 查询
+     * @return 全部 localePO
+     */
     public List<LocalePO> getList(){
         return localeMapper.getList();
     }

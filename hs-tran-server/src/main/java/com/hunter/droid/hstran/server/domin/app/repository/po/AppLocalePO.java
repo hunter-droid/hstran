@@ -10,14 +10,12 @@ import java.util.Date;
  * @date 2021/3/27 9:21 下午
  */
 @Data
-public class AppPO {
+public class AppLocalePO {
     private Integer id;
 
     private Integer appId;
 
-    private String appName;
-
-    private String description;
+    private Integer localeId;
 
     private Date gmtCreate;
 

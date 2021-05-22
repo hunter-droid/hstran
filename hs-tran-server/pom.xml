@@ -14,7 +14,7 @@
     <name>hs-tran-server</name>
     <description>Demo project for Spring Boot</description>
     <properties>
-        <java.version>11</java.version>
+        <java.version>8</java.version>
         <org.mapstruct.version>1.4.1.Final</org.mapstruct.version>
     </properties>
     <dependencies>
@@ -66,11 +66,6 @@
             <groupId>io.springfox</groupId>
             <artifactId>springfox-spring-web</artifactId>
             <version>2.9.2</version>
-        </dependency>
-        <dependency>
-            <groupId>com.hunter.droid</groupId>
-            <artifactId>hs-xmetric</artifactId>
-            <version>1.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>commons-io</groupId>

@@ -26,9 +26,21 @@ public class LocaleController {
     LocaleService localeService;
 
     @ApiOperation(value = "添加locale", httpMethod = "POST", notes = "添加localse")
-    @RequestMapping(method = RequestMethod.POST)
+    @RequestMapping(path = "add",method = RequestMethod.POST)
     public int add(LocalePO localePO) {
         return localeService.add(localePO);
+    }
+
+    @ApiOperation(value = "删除locale", httpMethod = "POST", notes = "删除ocalse")
+    @RequestMapping(path = "/delete",method = RequestMethod.POST)
+    public int delete(int id) {
+        return localeService.delete(id);
+    }
+
+    @ApiOperation(value = "更新locale", httpMethod = "POST", notes = "更新ocalse")
+    @RequestMapping(path = "/update",method = RequestMethod.POST)
+    public int delete(LocalePO localePO) {
+        return localeService.update(localePO);
     }
 
     @ApiOperation(value = "获取locale", httpMethod = "GET", notes = "获取localse")

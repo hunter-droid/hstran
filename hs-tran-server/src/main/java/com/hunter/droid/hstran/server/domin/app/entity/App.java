@@ -1,8 +1,11 @@
 package com.hunter.droid.hstran.server.domin.app.entity;
 
+import com.hunter.droid.hstran.server.domin.app.entity.valueobject.AppLocale;
 import lombok.Data;
 
 import java.util.Date;
+import java.util.List;
+import java.util.stream.Collectors;
 
 /**
  * @author fx.yu
@@ -23,8 +26,16 @@ public class App {
 
     private Date gmtModify;
 
-    public void create(){
+    private List<AppLocale> appLocales;
 
+    public App setAppLocales(List<Integer> locales) {
+        this.appLocales = locales.stream().map(o -> {
+            AppLocale appLocale = new AppLocale();
+            appLocale.setAppId(appId);
+            appLocale.setLocaleId(o);
+            return appLocale;
+        }).collect(Collectors.toList());
+        return this;
     }
 
 }

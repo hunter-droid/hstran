@@ -31,4 +31,9 @@ public class Response<R> {
         this.responseMsg = responseMsg;
         return (R) this;
     }
+    public R setError() {
+        this.responseCode = "50000";
+        this.responseMsg = "error";
+        return (R) this;
+    }
 }

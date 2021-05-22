@@ -17,5 +17,6 @@ public interface AppDominConverter {
     AppDominConverter INSTANCE = Mappers.getMapper(AppDominConverter.class);
 
     PageInfo<App> toApp(PageInfo<AppPO> appPOPageInfo);
+    AppPO toAppPO(App app);
 
 }

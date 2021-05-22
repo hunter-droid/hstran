@@ -2,11 +2,13 @@ package com.hunter.droid.hstran.server.interfaces.converter;
 
 import com.github.pagehelper.PageInfo;
 import com.hunter.droid.hstran.server.domin.app.entity.App;
+import com.hunter.droid.hstran.server.domin.app.entity.valueobject.AppLocale;
 import com.hunter.droid.hstran.server.interfaces.dto.AppPageInfoResponse;
-import com.hunter.droid.hstran.server.interfaces.dto.AppPageListResponse;
 import com.hunter.droid.hstran.server.interfaces.dto.CreateAppRequest;
-import org.mapstruct.Mapper;
+import org.mapstruct.*;
 import org.mapstruct.factory.Mappers;
+
+import java.util.List;
 
 /**
  * @author fx.yu
@@ -20,4 +22,7 @@ public interface AppConverter {
     App toApp(CreateAppRequest source);
 
     PageInfo<AppPageInfoResponse> toAppPageListResponse(PageInfo<App> appPageInfo);
+
+
+
 }
